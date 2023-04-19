@@ -1,0 +1,22 @@
+{
+    "FileVersion" : 3,
+    "FriendlyName" : "MySQL Client Plugin",
+    "Version" : 1,
+    "VersionName": "1.0",
+    "Description" : "Exposing MySQL Client functionality to UE4",
+    "Category" : "Database",
+    "CreatedBy" : "Adlan Sadou",
+    "CreatedByURL" : "",
+    "CanContainContent" : "false",
+    "Modules" :
+    [
+      {
+        "Name": "MySQLClient",
+        "Type": "Runtime",
+        "LoadingPhase": "Default",
+        "PlatformAllowList": [
+          "Win64"
+        ]
+      } 
+    ]
+}
